@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    app:layoutDescription="@xml/activity_main_xml_constraintlayout_scene"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/moon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scene" />
+
+    <TextView
+        android:id="@+id/moonM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="رمضان كريم"
+        android:textColor="#71984D"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/moon"
+        app:layout_constraintEnd_toEndOf="@id/moon"
+        app:layout_constraintStart_toStartOf="@id/moon"
+        app:layout_constraintTop_toBottomOf="@id/moon" />
+
+
+
+    <View
+        android:id="@+id/first_clude"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/cloude_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/seconde_clude"
+        android:layout_width="200dp"
+        android:layout_height="116dp"
+        android:background="@drawable/chmurki_niebo"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <View
+        android:id="@+id/third_clude"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/chmurki_niebo" />
+
+    <View
+        android:id="@+id/fourth_clude"
+        android:layout_width="240dp"
+        android:layout_height="275dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <View
+        android:id="@+id/fife_clude"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/chmurki_niebo" />
+
+    <View
+        android:id="@+id/eghte_clude"
+        android:layout_width="200dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/chmurki_niebo" />
+
+    <View
+        android:id="@+id/six_clude"
+        android:layout_width="298dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="294dp"
+        android:background="@drawable/chmurki_niebo" />
+
+    <View
+        android:id="@+id/seven_clude"
+        android:layout_width="262dp"
+        android:layout_height="162dp"
+        android:background="@drawable/cloude_2"
+        tools:layout_editor_absoluteY="364dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
